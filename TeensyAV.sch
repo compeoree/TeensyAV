@@ -1,0 +1,908 @@
+EESchema Schematic File Version 4
+LIBS:teensy36-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L teensy:Teensy3.6 U1
+U 1 1 5BD365D4
+P 3550 3100
+F 0 "U1" H 3550 5487 60  0000 C CNN
+F 1 "Teensy3.6" H 3550 5381 60  0000 C CNN
+F 2 "Teensy_Accessories:Teensy35_36_SMD" H 3550 3100 60  0001 C CNN
+F 3 "" H 3550 3100 60  0000 C CNN
+	1    3550 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:BSR802N_L6327 Q2
+U 1 1 5BDA7EFF
+P 6400 2800
+F 0 "Q2" H 6800 3065 50  0000 C CNN
+F 1 "BSR802N_L6327" H 6800 2974 50  0000 C CNN
+F 2 "Teensy_Accessories:SOT95P285X120-3N" H 7050 2900 50  0001 L CNN
+F 3 "https://www.mouser.com/datasheet/2/196/BSR802N_Rev2.2-59102.pdf" H 7050 2800 50  0001 L CNN
+F 4 "Infineon BSR802N L6327 N-channel MOSFET Transistor, 3.7 A, 20 V, 3-Pin SC-59" H 7050 2700 50  0001 L CNN "Description"
+F 5 "1.2" H 7050 2600 50  0001 L CNN "Height"
+F 6 "726-BSR802NL6327" H 7050 2500 50  0001 L CNN "Mouser Part Number"
+F 7 "Infineon" H 7050 2400 50  0001 L CNN "Manufacturer_Name"
+F 8 "BSR802N L6327" H 7050 2300 50  0001 L CNN "Manufacturer_Part_Number"
+	1    6400 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:EN12-HS22AF20 SW1
+U 1 1 5BDB8C45
+P 1900 1200
+F 0 "SW1" H 2400 1465 50  0000 C CNN
+F 1 "EN12-HS22AF20" H 2400 1374 50  0000 C CNN
+F 2 "Teensy_Accessories:EN12HS22AF20" H 2750 1300 50  0001 L CNN
+F 3 "https://www.mouser.com/datasheet/2/414/Datasheet_RotaryEncoder_EN12Series-1132176.pdf" H 2750 1200 50  0001 L CNN
+F 4 "Encoders 12mm" H 2750 1100 50  0001 L CNN "Description"
+F 5 "20" H 2750 1000 50  0001 L CNN "Height"
+F 6 "858-EN12-HS22AF20" H 2750 900 50  0001 L CNN "Mouser Part Number"
+F 7 "TT Electronics" H 2750 800 50  0001 L CNN "Manufacturer_Name"
+F 8 "EN12-HS22AF20" H 2750 700 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1900 1200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:EN12-HS22AF20 SW2
+U 1 1 5BDB8CE0
+P 900 2150
+F 0 "SW2" H 1400 2415 50  0000 C CNN
+F 1 "EN12-HS22AF20" H 1400 2324 50  0000 C CNN
+F 2 "Teensy_Accessories:EN12HS22AF20" H 1750 2250 50  0001 L CNN
+F 3 "https://www.mouser.com/datasheet/2/414/Datasheet_RotaryEncoder_EN12Series-1132176.pdf" H 1750 2150 50  0001 L CNN
+F 4 "Encoders 12mm" H 1750 2050 50  0001 L CNN "Description"
+F 5 "20" H 1750 1950 50  0001 L CNN "Height"
+F 6 "858-EN12-HS22AF20" H 1750 1850 50  0001 L CNN "Mouser Part Number"
+F 7 "TT Electronics" H 1750 1750 50  0001 L CNN "Manufacturer_Name"
+F 8 "EN12-HS22AF20" H 1750 1650 50  0001 L CNN "Manufacturer_Part_Number"
+	1    900  2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:EN12-HS22AF20 SW3
+U 1 1 5BDB8DA9
+P 3100 5750
+F 0 "SW3" H 3600 6015 50  0000 C CNN
+F 1 "EN12-HS22AF20" H 3600 5924 50  0000 C CNN
+F 2 "Teensy_Accessories:EN12HS22AF20" H 3950 5850 50  0001 L CNN
+F 3 "https://www.mouser.com/datasheet/2/414/Datasheet_RotaryEncoder_EN12Series-1132176.pdf" H 3950 5750 50  0001 L CNN
+F 4 "Encoders 12mm" H 3950 5650 50  0001 L CNN "Description"
+F 5 "20" H 3950 5550 50  0001 L CNN "Height"
+F 6 "858-EN12-HS22AF20" H 3950 5450 50  0001 L CNN "Mouser Part Number"
+F 7 "TT Electronics" H 3950 5350 50  0001 L CNN "Manufacturer_Name"
+F 8 "EN12-HS22AF20" H 3950 5250 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3100 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:B3F-1000 S1
+U 1 1 5BDB90F6
+P 850 6800
+F 0 "S1" H 1250 7065 50  0000 C CNN
+F 1 "B3F-1000" H 1250 6974 50  0000 C CNN
+F 2 "Teensy_Accessories:B3F1002" H 1500 6900 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/B3F-1000.pdf" H 1500 6800 50  0001 L CNN
+F 4 "OMRON ELECTRONIC COMPONENTS - B3F-1000 - SWITCH, SPNO, 0.05A, 24V, THT, 0.98N" H 1500 6700 50  0001 L CNN "Description"
+F 5 "" H 1500 6600 50  0001 L CNN "Height"
+F 6 "653-B3F-1000" H 1500 6500 50  0001 L CNN "Mouser Part Number"
+F 7 "Omron Electronics" H 1500 6400 50  0001 L CNN "Manufacturer_Name"
+F 8 "B3F-1000" H 1500 6300 50  0001 L CNN "Manufacturer_Part_Number"
+	1    850  6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:B3F-1000 S4
+U 1 1 5BDB9173
+P 2300 7400
+F 0 "S4" H 2700 7665 50  0000 C CNN
+F 1 "B3F-1000" H 2700 7574 50  0000 C CNN
+F 2 "Teensy_Accessories:B3F1002" H 2950 7500 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/B3F-1000.pdf" H 2950 7400 50  0001 L CNN
+F 4 "OMRON ELECTRONIC COMPONENTS - B3F-1000 - SWITCH, SPNO, 0.05A, 24V, THT, 0.98N" H 2950 7300 50  0001 L CNN "Description"
+F 5 "" H 2950 7200 50  0001 L CNN "Height"
+F 6 "653-B3F-1000" H 2950 7100 50  0001 L CNN "Mouser Part Number"
+F 7 "Omron Electronics" H 2950 7000 50  0001 L CNN "Manufacturer_Name"
+F 8 "B3F-1000" H 2950 6900 50  0001 L CNN "Manufacturer_Part_Number"
+	1    2300 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:B3F-1000 S2
+U 1 1 5BDB91E9
+P 850 7400
+F 0 "S2" H 1250 7665 50  0000 C CNN
+F 1 "B3F-1000" H 1250 7574 50  0000 C CNN
+F 2 "Teensy_Accessories:B3F1002" H 1500 7500 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/B3F-1000.pdf" H 1500 7400 50  0001 L CNN
+F 4 "OMRON ELECTRONIC COMPONENTS - B3F-1000 - SWITCH, SPNO, 0.05A, 24V, THT, 0.98N" H 1500 7300 50  0001 L CNN "Description"
+F 5 "" H 1500 7200 50  0001 L CNN "Height"
+F 6 "653-B3F-1000" H 1500 7100 50  0001 L CNN "Mouser Part Number"
+F 7 "Omron Electronics" H 1500 7000 50  0001 L CNN "Manufacturer_Name"
+F 8 "B3F-1000" H 1500 6900 50  0001 L CNN "Manufacturer_Part_Number"
+	1    850  7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:B3F-1000 S3
+U 1 1 5BDB929D
+P 2300 6800
+F 0 "S3" H 2700 7065 50  0000 C CNN
+F 1 "B3F-1000" H 2700 6974 50  0000 C CNN
+F 2 "Teensy_Accessories:B3F1002" H 2950 6900 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/B3F-1000.pdf" H 2950 6800 50  0001 L CNN
+F 4 "OMRON ELECTRONIC COMPONENTS - B3F-1000 - SWITCH, SPNO, 0.05A, 24V, THT, 0.98N" H 2950 6700 50  0001 L CNN "Description"
+F 5 "" H 2950 6600 50  0001 L CNN "Height"
+F 6 "653-B3F-1000" H 2950 6500 50  0001 L CNN "Mouser Part Number"
+F 7 "Omron Electronics" H 2950 6400 50  0001 L CNN "Manufacturer_Name"
+F 8 "B3F-1000" H 2950 6300 50  0001 L CNN "Manufacturer_Part_Number"
+	1    2300 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:B3F-1000 S7
+U 1 1 5BDB92F7
+P 3700 7400
+F 0 "S7" H 4100 7665 50  0000 C CNN
+F 1 "B3F-1000" H 4100 7574 50  0000 C CNN
+F 2 "Teensy_Accessories:B3F1002" H 4350 7500 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/B3F-1000.pdf" H 4350 7400 50  0001 L CNN
+F 4 "OMRON ELECTRONIC COMPONENTS - B3F-1000 - SWITCH, SPNO, 0.05A, 24V, THT, 0.98N" H 4350 7300 50  0001 L CNN "Description"
+F 5 "653-B3F-1000" H 4350 7100 50  0001 L CNN "Mouser Part Number"
+F 6 "Omron Electronics" H 4350 7000 50  0001 L CNN "Manufacturer_Name"
+F 7 "B3F-1000" H 4350 6900 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3700 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5BDB9A29
+P 1900 1500
+F 0 "#PWR0101" H 1900 1250 50  0001 C CNN
+F 1 "GND" H 1905 1327 50  0000 C CNN
+F 2 "" H 1900 1500 50  0001 C CNN
+F 3 "" H 1900 1500 50  0001 C CNN
+	1    1900 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5BDB9A63
+P 2550 1000
+F 0 "#PWR0102" H 2550 750 50  0001 C CNN
+F 1 "GND" V 2555 872 50  0000 R CNN
+F 2 "" H 2550 1000 50  0001 C CNN
+F 3 "" H 2550 1000 50  0001 C CNN
+	1    2550 1000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5BDB9A8D
+P 2950 6150
+F 0 "#PWR0103" H 2950 5900 50  0001 C CNN
+F 1 "GND" H 2955 5977 50  0000 C CNN
+F 2 "" H 2950 6150 50  0001 C CNN
+F 3 "" H 2950 6150 50  0001 C CNN
+	1    2950 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 850  2050 1100
+Wire Wire Line
+	1900 1400 1900 1500
+Connection ~ 1900 1500
+Wire Wire Line
+	900  850  900  1200
+Text Label 2150 1400 0    60   ~ 0
+Backlight
+Wire Wire Line
+	900  850  2050 850 
+Wire Wire Line
+	1900 1200 2550 1200
+Wire Wire Line
+	1900 1300 2550 1300
+Wire Wire Line
+	2550 1400 2150 1400
+Wire Wire Line
+	2050 1100 2550 1100
+Wire Wire Line
+	2550 1500 2100 1500
+Wire Wire Line
+	2100 1500 2100 1750
+Wire Wire Line
+	2100 1750 700  1750
+Wire Wire Line
+	700  1750 700  2250
+Wire Wire Line
+	700  2250 900  2250
+Wire Wire Line
+	2550 1600 2200 1600
+Wire Wire Line
+	2200 1600 2200 1850
+Wire Wire Line
+	2200 1850 900  1850
+Wire Wire Line
+	900  1850 900  2150
+Wire Wire Line
+	2550 1900 2250 1900
+Wire Wire Line
+	2250 1900 2250 2150
+Wire Wire Line
+	2250 2150 1900 2150
+Text GLabel 2550 1800 0    60   Output ~ 0
+MOSI
+Text GLabel 2550 5000 0    60   Output ~ 0
+SCLK
+Text GLabel 2550 2000 0    60   Output ~ 0
+BCLK
+Text GLabel 2550 2200 0    60   Output ~ 0
+MCLK
+Text GLabel 2550 2300 0    60   Input ~ 0
+MISO
+Text GLabel 2550 4900 0    60   Input ~ 0
+RX
+Wire Wire Line
+	2550 5850 3100 5850
+Wire Wire Line
+	3100 5750 3100 5600
+Wire Wire Line
+	3100 5350 4550 5350
+Wire Wire Line
+	4550 5350 4550 5200
+$Comp
+L power:GND #PWR0104
+U 1 1 5BDBBEF1
+P 2550 4800
+F 0 "#PWR0104" H 2550 4550 50  0001 C CNN
+F 1 "GND" V 2555 4672 50  0000 R CNN
+F 2 "" H 2550 4800 50  0001 C CNN
+F 3 "" H 2550 4800 50  0001 C CNN
+	1    2550 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5BDBBFBC
+P 2550 3600
+F 0 "#PWR0105" H 2550 3350 50  0001 C CNN
+F 1 "GND" V 2555 3472 50  0000 R CNN
+F 2 "" H 2550 3600 50  0001 C CNN
+F 3 "" H 2550 3600 50  0001 C CNN
+	1    2550 3600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	900  2350 900  2450
+$Comp
+L power:GND #PWR0106
+U 1 1 5BDBCB4A
+P 900 2450
+F 0 "#PWR0106" H 900 2200 50  0001 C CNN
+F 1 "GND" H 905 2277 50  0000 C CNN
+F 2 "" H 900 2450 50  0001 C CNN
+F 3 "" H 900 2450 50  0001 C CNN
+	1    900  2450
+	1    0    0    -1  
+$EndComp
+Connection ~ 900  2450
+Wire Wire Line
+	2950 6150 2950 5950
+Wire Wire Line
+	2950 5950 3100 5950
+Text GLabel 4550 5100 2    60   Input ~ 0
+SDA
+Text GLabel 4550 5000 2    60   Input ~ 0
+SCL
+Text GLabel 4550 4900 2    60   Output ~ 0
+TFT_DC
+Text GLabel 4550 4800 2    60   Output ~ 0
+TFT_CS
+Text GLabel 4550 4700 2    60   Output ~ 0
+TX
+Text GLabel 4550 4600 2    60   Output ~ 0
+LRCLK
+Text GLabel 2550 3300 0    60   Output ~ 0
+TFT_RST
+Text GLabel 2550 2500 0    60   Output ~ 0
+ATT_LE
+Text GLabel 2550 2600 0    60   Output ~ 0
+ATT_DATA
+Text GLabel 2550 2900 0    60   Output ~ 0
+ATT_CLK
+Text GLabel 2550 3900 0    60   Input ~ 0
+B1
+Text GLabel 2550 4000 0    60   Input ~ 0
+B2
+Text GLabel 2550 4100 0    60   Input ~ 0
+B3
+Text GLabel 2550 4200 0    60   Input ~ 0
+B4
+Text GLabel 2550 4400 0    60   Input ~ 0
+B5
+Text GLabel 2550 4300 0    60   Input ~ 0
+B7
+Text GLabel 2550 3200 0    60   Output ~ 0
+Band1
+Text GLabel 2550 3100 0    60   Output ~ 0
+Band2
+Text GLabel 2550 2800 0    60   Output ~ 0
+Band3
+Text GLabel 2550 3000 0    60   Output ~ 0
+Band4
+Text GLabel 2550 2700 0    60   Output ~ 0
+Band5
+Text GLabel 2550 5100 0    60   Input ~ 0
+VOL
+$Comp
+L power:+3.3V #PWR0107
+U 1 1 5BDBE56E
+P 4550 4500
+F 0 "#PWR0107" H 4550 4350 50  0001 C CNN
+F 1 "+3.3V" V 4565 4628 50  0000 L CNN
+F 2 "" H 4550 4500 50  0001 C CNN
+F 3 "" H 4550 4500 50  0001 C CNN
+	1    4550 4500
+	0    1    -1   0   
+$EndComp
+$Comp
+L SamacSys_Parts:BAT-HLD-001 BAT1
+U 1 1 5BDBF36F
+P 1650 3550
+F 0 "BAT1" V 2004 3678 50  0000 L CNN
+F 1 "BAT-HLD-001" V 2095 3678 50  0000 L CNN
+F 2 "SamacSys_Parts:BATHLD001" H 2300 3650 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/BAT-HLD-001.pdf" H 2300 3550 50  0001 L CNN
+F 4 "Coin Cell Battery Holders Linx CR2032 Battery Holder" H 2300 3450 50  0001 L CNN "Description"
+F 5 "4" H 2300 3350 50  0001 L CNN "Height"
+F 6 "712-BAT-HLD-001" H 2300 3250 50  0001 L CNN "Mouser Part Number"
+F 7 "Linx Technologies" H 2300 3150 50  0001 L CNN "Manufacturer_Name"
+F 8 "BAT-HLD-001" H 2300 3050 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1650 3550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1550 3550 1600 3550
+Wire Wire Line
+	1600 3550 1600 3400
+Wire Wire Line
+	1600 3400 2550 3400
+Connection ~ 1600 3550
+Wire Wire Line
+	1600 3550 1650 3550
+$Comp
+L power:GND #PWR0108
+U 1 1 5BDC01FE
+P 1650 4350
+F 0 "#PWR0108" H 1650 4100 50  0001 C CNN
+F 1 "GND" H 1655 4177 50  0000 C CNN
+F 2 "" H 1650 4350 50  0001 C CNN
+F 3 "" H 1650 4350 50  0001 C CNN
+	1    1650 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:EM14A0D-C24-L064S SW4
+U 1 1 5BDC154D
+P 1100 5450
+F 0 "SW4" H 1500 5715 50  0000 C CNN
+F 1 "EM14A0D-C24-L064S" H 1500 5624 50  0000 C CNN
+F 2 "Teensy_Accessories:EM14A0D(AXIAL)" H 1750 5550 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/EM14A0D-C24-L064S.pdf" H 1750 5450 50  0001 L CNN
+F 4 "14mm Rotary Optical Enc. w/Switch 64PPR Bourns Incremental Quadrature Rotary Encoder, 120rpm, 64ppr, 5 V dc, IP54" H 1750 5350 50  0001 L CNN "Description"
+F 5 "652-EM14A0D-C24-L64S" H 1750 5150 50  0001 L CNN "Mouser Part Number"
+F 6 "Bourns" H 1750 5050 50  0001 L CNN "Manufacturer_Name"
+F 7 "EM14A0D-C24-L064S" H 1750 4950 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1100 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0109
+U 1 1 5BDC1B2B
+P 4550 4300
+F 0 "#PWR0109" H 4550 4150 50  0001 C CNN
+F 1 "+5V" V 4565 4428 50  0000 L CNN
+F 2 "" H 4550 4300 50  0001 C CNN
+F 3 "" H 4550 4300 50  0001 C CNN
+	1    4550 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0110
+U 1 1 5BDC1E19
+P 1900 5550
+F 0 "#PWR0110" H 1900 5400 50  0001 C CNN
+F 1 "+5V" V 1915 5678 50  0000 L CNN
+F 2 "" H 1900 5550 50  0001 C CNN
+F 3 "" H 1900 5550 50  0001 C CNN
+	1    1900 5550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 5BDC1E40
+P 1100 5450
+F 0 "#PWR0111" H 1100 5200 50  0001 C CNN
+F 1 "GND" V 1105 5322 50  0000 R CNN
+F 2 "" H 1100 5450 50  0001 C CNN
+F 3 "" H 1100 5450 50  0001 C CNN
+	1    1100 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0112
+U 1 1 5BDC4736
+P 1650 6800
+F 0 "#PWR0112" H 1650 6550 50  0001 C CNN
+F 1 "GND" V 1655 6672 50  0000 R CNN
+F 2 "" H 1650 6800 50  0001 C CNN
+F 3 "" H 1650 6800 50  0001 C CNN
+	1    1650 6800
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:GND #PWR0113
+U 1 1 5BDC47BB
+P 1650 7400
+F 0 "#PWR0113" H 1650 7150 50  0001 C CNN
+F 1 "GND" V 1655 7272 50  0000 R CNN
+F 2 "" H 1650 7400 50  0001 C CNN
+F 3 "" H 1650 7400 50  0001 C CNN
+	1    1650 7400
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:GND #PWR0114
+U 1 1 5BDC47E2
+P 3100 6800
+F 0 "#PWR0114" H 3100 6550 50  0001 C CNN
+F 1 "GND" V 3105 6672 50  0000 R CNN
+F 2 "" H 3100 6800 50  0001 C CNN
+F 3 "" H 3100 6800 50  0001 C CNN
+	1    3100 6800
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:GND #PWR0115
+U 1 1 5BDC483C
+P 4500 7400
+F 0 "#PWR0115" H 4500 7150 50  0001 C CNN
+F 1 "GND" V 4505 7272 50  0000 R CNN
+F 2 "" H 4500 7400 50  0001 C CNN
+F 3 "" H 4500 7400 50  0001 C CNN
+	1    4500 7400
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:GND #PWR0116
+U 1 1 5BDC488A
+P 3100 7400
+F 0 "#PWR0116" H 3100 7150 50  0001 C CNN
+F 1 "GND" V 3105 7272 50  0000 R CNN
+F 2 "" H 3100 7400 50  0001 C CNN
+F 3 "" H 3100 7400 50  0001 C CNN
+	1    3100 7400
+	0    -1   1    0   
+$EndComp
+Text GLabel 850  6800 0    60   Input ~ 0
+B1
+Text GLabel 850  7400 0    60   Input ~ 0
+B2
+Text GLabel 2300 6800 0    60   Input ~ 0
+B3
+Text GLabel 2300 7400 0    60   Input ~ 0
+B4
+Wire Wire Line
+	3100 6050 3100 5950
+Connection ~ 3100 5950
+Text GLabel 4100 5750 2    60   Input ~ 0
+B5
+Text GLabel 3700 7400 0    60   Input ~ 0
+B7
+Text GLabel 1900 5450 2    60   Input ~ 0
+B5
+$Comp
+L power:GND #PWR0117
+U 1 1 5BDC5439
+P 1100 5650
+F 0 "#PWR0117" H 1100 5400 50  0001 C CNN
+F 1 "GND" H 1105 5477 50  0000 C CNN
+F 2 "" H 1100 5650 50  0001 C CNN
+F 3 "" H 1100 5650 50  0001 C CNN
+	1    1100 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R1
+U 1 1 5BDC5D57
+P 750 5900
+F 0 "R1" H 818 5946 50  0000 L CNN
+F 1 "10K" H 818 5855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 750 5900 50  0001 C CNN
+F 3 "~" H 750 5900 50  0001 C CNN
+	1    750  5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 5550 750  5550
+Wire Wire Line
+	750  5550 750  5800
+$Comp
+L Device:R_Small_US R3
+U 1 1 5BDC65BC
+P 2200 5750
+F 0 "R3" H 2268 5796 50  0000 L CNN
+F 1 "10K" H 2268 5705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2200 5750 50  0001 C CNN
+F 3 "~" H 2200 5750 50  0001 C CNN
+	1    2200 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 5650 2200 5650
+$Comp
+L Device:R_Small_US R4
+U 1 1 5BDC76C9
+P 2200 5950
+F 0 "R4" H 2268 5996 50  0000 L CNN
+F 1 "10K" H 2268 5905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2200 5950 50  0001 C CNN
+F 3 "~" H 2200 5950 50  0001 C CNN
+	1    2200 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0118
+U 1 1 5BDC771C
+P 2200 6050
+F 0 "#PWR0118" H 2200 5800 50  0001 C CNN
+F 1 "GND" H 2205 5877 50  0000 C CNN
+F 2 "" H 2200 6050 50  0001 C CNN
+F 3 "" H 2200 6050 50  0001 C CNN
+	1    2200 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 5200 2550 5850
+Wire Wire Line
+	2200 5850 2550 5850
+Connection ~ 2550 5850
+Connection ~ 2200 5850
+$Comp
+L Device:R_Small_US R2
+U 1 1 5BDC8EE6
+P 750 6100
+F 0 "R2" H 818 6146 50  0000 L CNN
+F 1 "10K" H 818 6055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 750 6100 50  0001 C CNN
+F 3 "~" H 750 6100 50  0001 C CNN
+	1    750  6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0119
+U 1 1 5BDC8F26
+P 750 6200
+F 0 "#PWR0119" H 750 5950 50  0001 C CNN
+F 1 "GND" H 755 6027 50  0000 C CNN
+F 2 "" H 750 6200 50  0001 C CNN
+F 3 "" H 750 6200 50  0001 C CNN
+	1    750  6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	750  6000 1700 6000
+Wire Wire Line
+	1700 6000 1700 6300
+Wire Wire Line
+	1700 6300 2750 6300
+Wire Wire Line
+	2750 6300 2750 5600
+Wire Wire Line
+	2750 5600 3100 5600
+Connection ~ 750  6000
+Connection ~ 3100 5600
+Wire Wire Line
+	3100 5600 3100 5350
+$Comp
+L Device:R_Small_US R5
+U 1 1 5BDCDB35
+P 6050 2900
+F 0 "R5" H 5982 2854 50  0000 R CNN
+F 1 "10K" H 5982 2945 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6050 2900 50  0001 C CNN
+F 3 "~" H 6050 2900 50  0001 C CNN
+	1    6050 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0120
+U 1 1 5BDCDD53
+P 6250 3050
+F 0 "#PWR0120" H 6250 2800 50  0001 C CNN
+F 1 "GND" H 6255 2877 50  0000 C CNN
+F 2 "" H 6250 3050 50  0001 C CNN
+F 3 "" H 6250 3050 50  0001 C CNN
+	1    6250 3050
+	1    0    0    -1  
+$EndComp
+Text GLabel 7450 1350 2    60   Input ~ 0
+MOSI
+Text GLabel 7450 1450 2    60   Output ~ 0
+MISO
+Text GLabel 7450 1250 2    60   Input ~ 0
+TFT_CS
+Text GLabel 7450 1150 2    60   Input ~ 0
+TFT_DC
+Text GLabel 7450 1550 2    60   Input ~ 0
+SCLK
+Text GLabel 7450 1750 2    60   Input ~ 0
+TFT_RST
+Wire Wire Line
+	6400 2800 6050 2800
+Wire Wire Line
+	6400 2900 6400 3050
+Wire Wire Line
+	6400 3050 6250 3050
+Wire Wire Line
+	6050 3000 6050 3050
+Wire Wire Line
+	6050 3050 6250 3050
+Connection ~ 6250 3050
+$Comp
+L Device:R_Small_US R6
+U 1 1 5BE15061
+P 7200 2650
+F 0 "R6" H 7132 2604 50  0000 R CNN
+F 1 "10K" H 7132 2695 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7200 2650 50  0001 C CNN
+F 3 "~" H 7200 2650 50  0001 C CNN
+	1    7200 2650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6050 2800 5750 2800
+Connection ~ 6050 2800
+Text Label 5750 2800 0    60   ~ 0
+Backlight
+$Comp
+L SamacSys_Parts:SI2371EDS-T1-GE3 Q1
+U 1 1 5BE1685E
+P 7550 2800
+F 0 "Q1" V 8117 2900 50  0000 C CNN
+F 1 "SI2371EDS-T1-GE3" V 8026 2900 50  0000 C CNN
+F 2 "Teensy_Accessories:SOT95P237X112-3N" H 8000 2750 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/SI2371EDS-T1-GE3.pdf" H 8000 2650 50  0001 L CNN
+F 4 "MOSFET -30V Vds 12V Vgs SOT-23" H 8000 2550 50  0001 L CNN "Description"
+F 5 "1.12" H 8000 2450 50  0001 L CNN "Height"
+F 6 "78-SI2371EDS-T1-GE3" H 8000 2350 50  0001 L CNN "Mouser Part Number"
+F 7 "Vishay" H 8000 2250 50  0001 L CNN "Manufacturer_Name"
+F 8 "SI2371EDS-T1-GE3" H 8000 2150 50  0001 L CNN "Manufacturer_Part_Number"
+	1    7550 2800
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	7350 2500 7200 2500
+Wire Wire Line
+	7550 2800 7200 2800
+Wire Wire Line
+	7200 2550 7200 2500
+Wire Wire Line
+	7200 2750 7200 2800
+Connection ~ 7200 2800
+Wire Wire Line
+	7450 1650 8100 1650
+Wire Wire Line
+	8100 2500 7950 2500
+$Comp
+L power:+5V #PWR0121
+U 1 1 5BE1BB2D
+P 7200 2500
+F 0 "#PWR0121" H 7200 2350 50  0001 C CNN
+F 1 "+5V" V 7215 2628 50  0000 L CNN
+F 2 "" H 7200 2500 50  0001 C CNN
+F 3 "" H 7200 2500 50  0001 C CNN
+	1    7200 2500
+	1    0    0    -1  
+$EndComp
+Connection ~ 7200 2500
+$Comp
+L power:+5V #PWR0122
+U 1 1 5BE1BB9C
+P 6650 850
+F 0 "#PWR0122" H 6650 700 50  0001 C CNN
+F 1 "+5V" V 6665 978 50  0000 L CNN
+F 2 "" H 6650 850 50  0001 C CNN
+F 3 "" H 6650 850 50  0001 C CNN
+	1    6650 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0123
+U 1 1 5BE1BC75
+P 6650 2050
+F 0 "#PWR0123" H 6650 1800 50  0001 C CNN
+F 1 "GND" H 6655 1877 50  0000 C CNN
+F 2 "" H 6650 2050 50  0001 C CNN
+F 3 "" H 6650 2050 50  0001 C CNN
+	1    6650 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R7
+U 1 1 5BE1C08A
+P 8100 2100
+F 0 "R7" H 8032 2054 50  0000 R CNN
+F 1 "100R" H 8032 2145 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8100 2100 50  0001 C CNN
+F 3 "~" H 8100 2100 50  0001 C CNN
+	1    8100 2100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8100 2000 8100 1650
+Wire Wire Line
+	8100 2200 8100 2500
+$Comp
+L teensy36-rescue:ILI9341_TOUCH-Teensy_Accessories U2
+U 1 1 5BED16AD
+P 6650 1450
+F 0 "U2" H 6650 2228 50  0000 C CNN
+F 1 "ILI9341_TOUCH" H 6650 2137 50  0000 C CNN
+F 2 "Teensy_Accessories:ILI9341_TOUCH" H 6650 750 50  0001 C CNN
+F 3 "http://pan.baidu.com/s/11Y990" H 6000 1950 50  0001 C CNN
+	1    6650 1450
+	1    0    0    -1  
+$EndComp
+Text GLabel 5850 1500 0    60   Input ~ 0
+SCLK
+Text GLabel 5850 1800 0    60   Output ~ 0
+MISO
+Text GLabel 5850 1700 0    60   Input ~ 0
+MOSI
+Text GLabel 5850 1600 0    60   Input ~ 0
+T_CS
+Text GLabel 2550 1700 0    60   Input ~ 0
+T_CS
+Text GLabel 2550 2400 0    60   Input ~ 0
+PWR
+$Comp
+L SamacSys_Parts:B3F-1000 S5
+U 1 1 5BEF7BC7
+P 3700 6800
+F 0 "S5" H 4100 7065 50  0000 C CNN
+F 1 "B3F-1000" H 4100 6974 50  0000 C CNN
+F 2 "Teensy_Accessories:B3F1002" H 4350 6900 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/B3F-1000.pdf" H 4350 6800 50  0001 L CNN
+F 4 "OMRON ELECTRONIC COMPONENTS - B3F-1000 - SWITCH, SPNO, 0.05A, 24V, THT, 0.98N" H 4350 6700 50  0001 L CNN "Description"
+F 5 "653-B3F-1000" H 4350 6500 50  0001 L CNN "Mouser Part Number"
+F 6 "Omron Electronics" H 4350 6400 50  0001 L CNN "Manufacturer_Name"
+F 7 "B3F-1000" H 4350 6300 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3700 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0124
+U 1 1 5BEF7C0D
+P 4500 6800
+F 0 "#PWR0124" H 4500 6550 50  0001 C CNN
+F 1 "GND" V 4505 6672 50  0000 R CNN
+F 2 "" H 4500 6800 50  0001 C CNN
+F 3 "" H 4500 6800 50  0001 C CNN
+	1    4500 6800
+	0    -1   1    0   
+$EndComp
+Text GLabel 3700 6800 0    60   Input ~ 0
+PWR
+$Comp
+L Connector:Conn_01x14_Male J1
+U 1 1 5BF0F8FF
+P 6000 5000
+F 0 "J1" H 6106 5778 50  0000 C CNN
+F 1 "Conn_01x14_Male" H 6106 5687 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical_SMD_Pin1Left" H 6000 5000 50  0001 C CNN
+F 3 "~" H 6000 5000 50  0001 C CNN
+	1    6000 5000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x14_Male J2
+U 1 1 5BF0F963
+P 6650 5000
+F 0 "J2" H 6756 5778 50  0000 C CNN
+F 1 "Conn_01x14_Male" H 6756 5687 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical_SMD_Pin1Left" H 6650 5000 50  0001 C CNN
+F 3 "~" H 6650 5000 50  0001 C CNN
+	1    6650 5000
+	1    0    0    -1  
+$EndComp
+Text GLabel 6850 5500 2    60   Output ~ 0
+VOL
+Text GLabel 5800 5400 0    60   Input ~ 0
+BCLK
+Text GLabel 5800 5600 0    60   Input ~ 0
+MCLK
+Text GLabel 6850 5700 2    60   Output ~ 0
+RX
+Text GLabel 6850 5200 2    60   Output ~ 0
+SDA
+Text GLabel 6850 5100 2    60   Output ~ 0
+SCL
+Text GLabel 6850 4800 2    60   Input ~ 0
+TX
+Text GLabel 6850 4700 2    60   Input ~ 0
+LRCLK
+$Comp
+L power:+3.3V #PWR0125
+U 1 1 5BF1B374
+P 6850 4600
+F 0 "#PWR0125" H 6850 4450 50  0001 C CNN
+F 1 "+3.3V" V 6865 4728 50  0000 L CNN
+F 2 "" H 6850 4600 50  0001 C CNN
+F 3 "" H 6850 4600 50  0001 C CNN
+	1    6850 4600
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0126
+U 1 1 5BF1B3AF
+P 5800 4400
+F 0 "#PWR0126" H 5800 4150 50  0001 C CNN
+F 1 "GND" V 5805 4272 50  0000 R CNN
+F 2 "" H 5800 4400 50  0001 C CNN
+F 3 "" H 5800 4400 50  0001 C CNN
+	1    5800 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J3
+U 1 1 5BF1BA17
+P 8000 4450
+F 0 "J3" H 8106 4728 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 8106 4637 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Left" H 8000 4450 50  0001 C CNN
+F 3 "~" H 8000 4450 50  0001 C CNN
+	1    8000 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0127
+U 1 1 5BF1BAE0
+P 8200 4350
+F 0 "#PWR0127" H 8200 4200 50  0001 C CNN
+F 1 "+5V" V 8215 4478 50  0000 L CNN
+F 2 "" H 8200 4350 50  0001 C CNN
+F 3 "" H 8200 4350 50  0001 C CNN
+	1    8200 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0128
+U 1 1 5BF1BB1D
+P 8200 4650
+F 0 "#PWR0128" H 8200 4400 50  0001 C CNN
+F 1 "GND" V 8205 4522 50  0000 R CNN
+F 2 "" H 8200 4650 50  0001 C CNN
+F 3 "" H 8200 4650 50  0001 C CNN
+	1    8200 4650
+	0    -1   -1   0   
+$EndComp
+Text GLabel 8200 4450 2    60   Output ~ 0
+SCL
+Text GLabel 8200 4550 2    60   Output ~ 0
+SDA
+$EndSCHEMATC
